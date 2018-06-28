@@ -50,17 +50,6 @@ textarea {
 }
 
 /* Estilos botones de indexx e indexp */
-#agregar,#verSaldo,#calcularTarifa,#perfil,#preguntas {
-	background-color: rgb(229, 255, 0);
-	border: 0px;
-	cursor: pointer;
-	text-align: center;
-	margin: 3em auto;
-	width: 260px;
-	height: 30px;
-	display: block;
-	color: #FFF;
-}
 
 
 
