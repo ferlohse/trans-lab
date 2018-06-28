@@ -27,7 +27,7 @@ const vista=document.getElementById("info");
 
 
 
-btonSaldo.addEventListener("click", event=>{
+btonSaldo.addEventListener("click",event=>{
   const nTarjeta= document.getElementById("nro").value;
   fetch(`http://www.psep.cl/api/Bip.php?&numberBip=${nTarjeta}`)
   .then(response=>response.json())
